@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-python-master.flake = false;
+  inputs.src-python-master.ref   = "refs/heads/master";
   inputs.src-python-master.owner = "nim-lang";
-  inputs.src-python-master.ref   = "master";
   inputs.src-python-master.repo  = "python";
   inputs.src-python-master.type  = "github";
   
