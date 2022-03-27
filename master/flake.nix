@@ -11,6 +11,7 @@
   inputs.src-python-master.ref   = "refs/heads/master";
   inputs.src-python-master.owner = "nim-lang";
   inputs.src-python-master.repo  = "python";
+  inputs.src-python-master.dir   = "";
   inputs.src-python-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
